@@ -19,5 +19,5 @@ effectively as a training dataset for supervised learning.
 
 ## Recommended reading material
 
-Thalia: [https://arxiv.org/abs/2505.17782](https://arxiv.org/abs/2505.17782)
-Intro to diffusion models: [https://arxiv.org/abs/2506.02070](https://arxiv.org/abs/2506.02070)
+- Thalia: [https://arxiv.org/abs/2505.17782](https://arxiv.org/abs/2505.17782)
+- Intro to diffusion models: [https://arxiv.org/abs/2506.02070](https://arxiv.org/abs/2506.02070)
