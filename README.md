@@ -24,7 +24,7 @@ effectively as a training dataset for supervised learning.
 - [Challenge Overview](#challenge-overview)
 - [Scope](#scope)
 - [Goal](#goal)
-- [Suggested Reads](#suggested-reads)
+- [Interesting Reads](#interesting-reads)
 - [Where to Start](#where-to-start)
 - [Repository Structure](#repository-structure)
 - [Contact](#contact)
@@ -57,7 +57,7 @@ The challenge revolves around two interrelated axes:
 
 ---
 
-<h2 id="suggested-reads">📚 Suggested Reads</h2>
+<h2 id="interesting-reads">📚 Interesting Reads</h2>
 
 ### Generative Modelling
 
