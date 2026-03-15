@@ -64,7 +64,7 @@ The challenge revolves around two interrelated axes:
 | Paper | Notes |
 |---|---|
 | [ProjectedGANs](https://arxiv.org/abs/2111.01007) · [GitHub](https://github.com/autonomousvision/projected-gan) | Robust image generation on limited data — proven to work on limited InSAR data |
-| [Image-to-Image Translation (Pix2Pix)](https://arxiv.org/pdf/1611.07004) | How to use image-like auxiliary data (DEM, coherence, atmospheric maps) as conditioning for synthetic InSAR generation. Can ideas be blended with ProjectedGANs? |
+| [Image-to-Image Translation (Pix2Pix)](https://arxiv.org/pdf/1611.07004) | Imate to Image generation. Can serve as an inspiration on how to use image-like data (e.g., DEM, coherence, atmospheric variables) as conditioning for synthetic InSAR generation. Can ideas be blended with ProjectedGANs? |
 | [Image-to-Many Images. (BicycleGAN)](https://arxiv.org/abs/1711.11586)| Pix2Pix follow-up with random noise
 |[Class conditioning with limited data](https://arxiv.org/pdf/2201.06578) | Training strategy for stable and easier class conditioning in low-data regimes
 | [Introduction to Diffusion Models](https://arxiv.org/abs/2506.02070) | A brief introduction into diffusion models. Feel free to investigate methodologies. E.g Diffusion with concatenated auxiliary data (DEM etc.) at every step t|
