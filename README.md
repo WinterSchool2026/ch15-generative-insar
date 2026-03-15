@@ -77,7 +77,7 @@ The challenge revolves around two interrelated axes:
 | Paper | Notes |
 |---|---|
 | [The Role of ImageNet Classes in FID](https://arxiv.org/abs/2203.06026) | Effect of ImageNet-pretrained feature space on FID. How meaningful is this setup for out-of-domain data like InSAR? |
-| [Rethinking FID — Jayasumana et al., CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/papers/Jayasumana_Rethinking_FID_Towards_a_Better_Evaluation_Metric_for_Image_Generation_CVPR_2024_paper.pdf) | Limitations of FID and the case for CMMD as a replacement |
+| [Rethinking FID](https://openaccess.thecvf.com/content/CVPR2024/papers/Jayasumana_Rethinking_FID_Towards_a_Better_Evaluation_Metric_for_Image_Generation_CVPR_2024_paper.pdf) | Limitations of FID and the case for CMMD as a replacement |
 
 ### Discussion on Natural Image Quality Metrics
 
