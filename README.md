@@ -111,8 +111,8 @@ The challenge revolves around two interrelated axes:
 
 If you're not sure where to jump in, here are a few natural entry points:
 
-- **For InSAR generation?** Start with ProjectedGANs and try to generate meaningful InSAR. **Then ask: How can I control what to generate?** Condition on class. Attempt to generate meaningful InSAR with and without ground deformation. Moving further. Can I control the topography? Condition on DEM. Can I introduce atmospheric contributions? Enter atmospheric variables.
-- **For evaluation of synthetic InSAR:** Understand existing metrics and their limitations. Think what principles should InSAR data follow and how can we ground them on plausibility. Does simple FID from Imagenet-pretrained InceptionV3 work? Can we create an InSAR based feature space for evaluation? Can we move further to domain-specifc evaluation? Read the feasibility papers and **ask: what makes an InSAR image physically inadmissible, and can we detect that automatically?**
+- **InSAR generation:** Start with ProjectedGANs and try to generate meaningful InSAR. **Then ask: How can I control what to generate?** Condition on class. Attempt to generate meaningful InSAR with and without ground deformation. Moving further. Can I control the topography? Condition on DEM. Can I introduce atmospheric contributions? Enter atmospheric variables.
+- **Evaluation of synthetic InSAR:** Understand existing metrics and their limitations. Think what principles should InSAR data follow and how can we ground them on plausibility. Does simple FID from Imagenet-pretrained InceptionV3 work? Can we create an InSAR based feature space for evaluation? Can we move further to domain-specifc evaluation? Read the feasibility papers and **ask: what makes an InSAR image physically inadmissible, and can we detect that automatically?**
 
 There is no single right answer, and partial contributions such as a new metric, a negative result, or a cool baseline, are all valuable.
 
