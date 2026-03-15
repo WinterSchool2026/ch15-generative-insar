@@ -28,8 +28,10 @@ effectively as a training dataset for supervised learning.
 - [Where to Start](#where-to-start)
 - [Repository Structure](#repository-structure)
 - [Contact](#contact)
- ---
-## 📡 Challenge Overview
+
+---
+ 
+<h2 id="challenge-overview">📡 Challenge Overview</h2>
 
 This challenge focuses on **generative models for Interferometric Synthetic Aperture Radar (InSAR)**, a domain where standard computer vision tools fall short, data is scarce, and the definition of "good" generation is highly ambiguous.
 
@@ -37,7 +39,7 @@ Unlike natural image generation, InSAR images carry physical meaning encoded in 
 
 ---
 
-## 🧭 Scope
+<h2 id="scope">🧭 Scope</h2>
 
 The challenge revolves around two interrelated axes:
 
@@ -46,7 +48,8 @@ The challenge revolves around two interrelated axes:
 **b) Evaluation Framework Design** — formulating novel metrics to assess generated InSAR across three dimensions: realism, faithfulness to conditioning, and physical feasibility. The resulting framework will move away from (or extend) standard natural image metrics (FID etc.) and ground them on the nature of InSAR imagery and feasibility.
 
 ---
-## 🎯 Goal
+
+<h2 id="goal">🎯 Goal</h2>
 
  Think of this challenge as an open invitation to follow your curiosity and intuitions into modelling, evaluation methodology, or wherever the problem takes you. 
  
@@ -54,7 +57,7 @@ The challenge revolves around two interrelated axes:
 
 ---
 
-## 📚 Suggested Reads
+<h2 id="suggested-reads">📚 Suggested Reads</h2>
 
 ### Generative Modelling
 
@@ -73,8 +76,7 @@ The challenge revolves around two interrelated axes:
 
 | Paper | Notes |
 |---|---|
-| [FID Paper (Optional)](https://proceedings.neurips.cc/paper_files/paper/2017/file/8a1d694707eb0fefe65871369074926d-Paper.pdf) | Introduces Fréchet Inception Distance, the dominant image generation metric |
-| [The Role of ImageNet Classes in FID](https://arxiv.org/abs/2203.06026) | How meaningful is an ImageNet-pretrained InceptionV3 feature space for domain-specific data like InSAR? |
+| [The Role of ImageNet Classes in FID](https://arxiv.org/abs/2203.06026) | Effect of ImageNet-pretrained feature space on FID. How meaningful is this setup for out-of-domain data like InSAR? |
 | [Rethinking FID — Jayasumana et al., CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/papers/Jayasumana_Rethinking_FID_Towards_a_Better_Evaluation_Metric_for_Image_Generation_CVPR_2024_paper.pdf) | Limitations of FID and the case for CMMD as a replacement |
 
 ### Discussion on Natural Image Quality Metrics
@@ -100,12 +102,12 @@ The challenge revolves around two interrelated axes:
 
 ---
 
-## 💡 Where to Start
+<h2 id="where-to-start">💡 Where to Start</h2>
 
 If you're not sure where to jump in, here are a few natural entry points:
 
-- **For InSAR generation?** Start with ProjectedGANs and try to generate meaningful InSAR. **Then ask: How can I control what to generate?** Condition on class. Attempt to generate meaningful InSAR with and without ground deformation. Moving further. Can I control the topography? Condition on DEM. Can I introduce atmospheric contributions? Enter atmospheric variables
-- **For evaluation of synthetic InSAR** Understand existing metrics and their limitations. Think what principles should InSAR data follow and how can we ground them on plausibility. Does simple FID from Imagenet-pretrained InceptionV3 work? Can we create an InSAR based feature space for evaluation? Can we move further to domain-specifc evaluation? Read the feasibility papers and **ask: what makes an InSAR image physically inadmissible, and can we detect that automatically?**
+- **For InSAR generation?** Start with ProjectedGANs and try to generate meaningful InSAR. **Then ask: How can I control what to generate?** Condition on class. Attempt to generate meaningful InSAR with and without ground deformation. Moving further. Can I control the topography? Condition on DEM. Can I introduce atmospheric contributions? Enter atmospheric variables.
+- **For evaluation of synthetic InSAR:** Understand existing metrics and their limitations. Think what principles should InSAR data follow and how can we ground them on plausibility. Does simple FID from Imagenet-pretrained InceptionV3 work? Can we create an InSAR based feature space for evaluation? Can we move further to domain-specifc evaluation? Read the feasibility papers and **ask: what makes an InSAR image physically inadmissible, and can we detect that automatically?**
 
 There is no single right answer, and partial contributions such as a new metric, a negative result, or a cool baseline, are all valuable.
 
@@ -115,7 +117,7 @@ There is no single right answer, and partial contributions such as a new metric,
 
 ---
 
-## 🗂️ Repository Structure
+<h2 id="repository-structure">🗂️ Repository Structure</h2>
 
 ```
 .
@@ -125,6 +127,6 @@ There is no single right answer, and partial contributions such as a new metric,
 
 ---
 
-## 📬 Contact
+<h2 id="contact">📬 Contact</h2>
 
 For questions, open an issue or reach out to the challenge organiser.
