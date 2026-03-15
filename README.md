@@ -100,6 +100,11 @@ The challenge revolves around two interrelated axes:
 |---|---|
 |[InSAR Resources](https://www.esa.int/About_Us/ESA_Publications/InSAR_Principles_Guidelines_for_SAR_Interferometry_Processing_and_Interpretation_br_ESA_TM-19)| ESA notes for InSAR processing|
 
+### Challenge data
+
+|Paper| Notes|
+|---|---|
+|[Thalia](https://arxiv.org/abs/2505.17782)| Thalia, a global multi-modal dataset for volcanic unrest monitoring. Thalia integrates InSAR, coherence, DEM, and atmospheric data across 38 spatiotemporal datacubes spanning 7 years of volcanic activity.|
 ---
 
 <h2 id="where-to-start">💡 Where to Start</h2>
@@ -121,8 +126,8 @@ There is no single right answer, and partial contributions such as a new metric,
 
 ```
 .
-├── data_loading_utilities.py   # Data loading utilities. Used in the notebook.
-└── ThaliaDemo.ipynb            # Notebook demonstrating how to download, visualize, explore, and iterate over the Thalia dataset.
+├── ThaliaDemo.ipynb            # Notebook demonstrating how to download, visualize, explore, and iterate over the Thalia dataset.
+└── data_loading_utilities.py   # Data loading utilities. Used in the notebook.
 ```
 
 ---
